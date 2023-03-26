@@ -13,6 +13,28 @@ The date when they stopped taking up new users: 2020-12-21
 End date: 2021-01-01
 Audience: 15% of the new users from the EU region
 Purpose of the test: testing changes related to the introduction of an improved recommendation system
-Expected result: within 14 days of signing up, users will show better conversion into product page views (the product_page event), product card views (product_card) and purchases (purchase). At each of the stage of the funnel product_page → product_card → purchase, there will be at least a 10% increase.
+Expected result: within 14 days of signing up, users will show better conversion into product page views (the product_page event), 
+product card views (product_card) and purchases (purchase). At each of the stage of the funnel product_page → product_card → purchase, 
+there will be at least a 10% increase.
 Expected number of test participants: 6000
 Download the test data, see whether it was carried out correctly, and analyze the results.
+
+Results
+The results of the T-test show that the p-value of all the stages of the funnel is greater than alpha (0.05) hence we accept the null hypothesis implying 
+That the number of conversions of group B (Treatment group) is equal to or less than that of group A (control group). 
+therefore, then we can say the old recommender system is better than the new one.
+
+CONCLUSION
+
+Though the analysis shows that the old recommender system is better, the general technical description and dataset have the following limitations
+
+Expected number of test participants: 6000 but in the dataset, the number of the participant of the "recommender_system_test" are 3675. this could mean that the test was not completed.
+Launch date: 2020-12-07 End Date: 2021-01-01
+the dataset has a lunch date of 2020-12-07 as stated in the technical description but the end date for data collection was stated to be 2021-01-01 the test was not carried out up to the planned end date. 
+that explains why the number of participants is not up to 6000.
+the difference in the number of people shown the new recommender system(2747) and the number of participants shown the new recommender system(928) is too wide.
+
+RECOMMENDATIONS
+because of this limitation mentioned above, I consider the test not accurate in deciding which of the recommender system is better 
+and so I recommend that the company should begin a new test following all the necessary technical description.
+ 
